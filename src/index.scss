@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+// .container {
+//     width: 100%;
+//     max-width: 1408px;
+//     padding: 0 16px;
+//     margin: 0 auto;
+// }
+
+/* 1440 */
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: calc(100% - 32px);
+}

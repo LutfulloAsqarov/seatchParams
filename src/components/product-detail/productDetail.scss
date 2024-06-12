@@ -1,0 +1,17 @@
+.detail {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    &__img {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+    &__info {
+        width: 50%;
+    }
+    &__desc {
+        padding: 30px 0;
+    }
+}
